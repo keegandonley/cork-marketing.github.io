@@ -1,3 +1,2 @@
-# cork-demo
-
-Demonstration of functionality of the cork platform
+# cork-marketing.github.io
+Public-Facing Website for Cork
