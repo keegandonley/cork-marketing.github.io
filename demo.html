@@ -40,9 +40,76 @@ mixpanel.init("b2e7936bd79adaee36240f7157e98082");</script><!-- end Mixpanel -->
 
 </head>
 <body>
-    <h4>Cork Marketing</h4>
-    <p>
-        Welcome to Cork!
-    </p>
+    <div id="cover">
+        Loading
+        <br>
+        (We'll be with you shortly!)
+        <br>
+        <br>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped active" role="progressbar"
+          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+            loading...
+          </div>
+        </div>
+    </div>
+
+    <div id="corkBox">
+        <div id="overlay">
+        </div>
+        <div id="corkTiles" class="grid">
+            <div class="grid-item grid--w-1" id="card1" onclick="corkFlip($('#card1'))">
+                <div class="front">
+                </div>
+                <div class="back">
+                </div>
+            </div>
+            <div class="grid-item grid--w-2" id="card2"  onclick="corkFlip($('#card2'))">
+                <div class="front">
+                </div>
+                <div class="back">
+                </div>
+            </div>
+            <div class="grid-item grid--w-3" id="card3"  onclick="corkFlip($('#card3'))">
+                <div class="front">
+                </div>
+                <div class="back">
+                </div>
+            </div>
+            <div class="grid-item grid--w-4" id="card4"  onclick="corkFlip($('#card4'))">
+                <div class="front">
+                </div>
+                <div class="back">
+                </div>
+            </div>
+            <div class="grid-item grid--w-5" id="card5"  onclick="corkFlip($('#card5'))">
+                <div class="front">
+                </div>
+                <div class="back">
+                </div>
+            </div>
+            <div class="grid-item grid--w-6" id="card6"  onclick="corkFlip($('#card6'))">
+                <div class="front">
+                </div>
+                <div class="back">
+                </div>
+            </div>
+            <div class="grid-item grid--w-7" id="card7"  onclick="corkFlip($('#card7'))">
+                <div class="front">
+                </div>
+                <div class="back">
+                </div>
+            </div>
+            <div class="grid-item grid--w-8" id="card8"  onclick="corkFlip($('#card8'))">
+                <div class="front">
+                </div>
+                <div class="back">
+                </div>
+            </div>
+        </div>
+    <div id="corkBottom">
+        <img src="assets/img/CorkLogo.png" id="logoImg" onclick="autoRotate()">
+    </div>
+    </div>
 </body>
 </html>
