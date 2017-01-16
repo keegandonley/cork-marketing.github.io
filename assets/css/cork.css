@@ -1,0 +1,191 @@
+#cover {
+	background-color: #ebebe8;
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	z-index:1000;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 20px;
+}
+
+.progress {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#corkBox {
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 40px;
+    overflow: auto;
+}
+
+#corkTiles {
+    width: 360px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-image: url('../../assets/img/cork.jpg');
+}
+
+#corkBottom {
+    width: 30px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: black;
+}
+
+#logoImg {
+    height: 40px;
+    margin-left: -15px;
+}
+
+.front, .back {
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.9);
+}
+
+/* The following controls the sizes of each grid element */
+
+.grid--w-1 {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.grid--w-2 {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.grid--w-3 {
+    width: 60px;
+    height: 100px;
+    float: left;
+}
+
+.grid--w-4 {
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+
+.grid--w-5 {
+    width: 110px;
+    height: 200px;
+    float: left;
+}
+
+.grid--w-6 {
+    width: 360px;
+    height: 75px;
+    float: left;
+}
+
+.grid--w-6 {
+    width: 360px;
+    height: 75px;
+    float: left;
+}
+
+.grid--w-7 {
+    width: 180px;
+    height: 125px;
+    float: left;
+}
+
+.grid--w-8 {
+    width: 180px;
+    height: 125px;
+    float: left;
+}
+
+/* The following controls the images in each grid element, front and back */
+
+.grid--w-1 > .front {
+    background-image: url('../../assets/img/ads/100x200.png');
+    background-size: contain;
+}
+
+.grid--w-1 > .back {
+    background-image: url('../../assets/img/ads/100x200-2.png');
+    background-size: contain;
+
+}
+
+.grid--w-2 > .front {
+    background-image: url('../../assets/img/ads/100x100.png');
+    background-size: contain;
+}
+
+.grid--w-2 > .back {
+    background-image: url('../../assets/img/ads/100x100-2.png');
+    background-size: contain;
+}
+
+.grid--w-3 > .front {
+    background-image: url('../../assets/img/ads/60x120.png');
+    background-size: contain;
+}
+
+.grid--w-3 > .back {
+    background-image: url('../../assets/img/ads/60x120-2.png');
+    background-size: contain;
+}
+
+.grid--w-4 > .front {
+    background-image: url('../../assets/img/ads/250x200.png');
+    background-size: contain;
+}
+
+.grid--w-4 > .back {
+    background-image: url('../../assets/img/ads/250x200-2.png');
+    background-size: contain;
+}
+
+.grid--w-5 > .front {
+    background-image: url('../../assets/img/ads/110x200-2.png');
+    background-size: contain;
+}
+
+.grid--w-5 > .back {
+    background-image: url('../../assets/img/ads/110x200.png');
+    background-size: contain;
+}
+
+.grid--w-6 > .front {
+    background-image: url('../../assets/img/ads/360x75-2.png');
+    background-size: contain;
+}
+
+.grid--w-6 > .back {
+    background-image: url('../../assets/img/ads/360x75.png');
+    background-size: contain;
+}
+
+.grid--w-7 > .front {
+    background-image: url('../../assets/img/ads/180x125-3.png');
+    background-size: contain;
+}
+
+.grid--w-7 > .back {
+    background-image: url('../../assets/img/ads/180x125.png');
+    background-size: contain;
+}
+
+.grid--w-8 > .front {
+    background-image: url('../../assets/img/ads/180x125-2.png');
+    background-size: contain;
+}
+
+.grid--w-8 > .back {
+    background-image: url('../../assets/img/ads/180x125-4.png');
+    background-size: contain;
+}
