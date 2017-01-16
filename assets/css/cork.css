@@ -31,7 +31,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    background-image: url('/assets/img/cork.jpg');
+    background-image: url('../../assets/img/cork.jpg');
 }
 
 #corkBottom {
@@ -110,82 +110,82 @@
 /* The following controls the images in each grid element, front and back */
 
 .grid--w-1 > .front {
-    background-image: url('/assets/img/ads/100x200.png');
+    background-image: url('../../assets/img/ads/100x200.png');
     background-size: contain;
 }
 
 .grid--w-1 > .back {
-    background-image: url('/assets/img/ads/100x200-2.png');
+    background-image: url('../../assets/img/ads/100x200-2.png');
     background-size: contain;
 
 }
 
 .grid--w-2 > .front {
-    background-image: url('/assets/img/ads/100x100.png');
+    background-image: url('../../assets/img/ads/100x100.png');
     background-size: contain;
 }
 
 .grid--w-2 > .back {
-    background-image: url('/assets/img/ads/100x100-2.png');
+    background-image: url('../../assets/img/ads/100x100-2.png');
     background-size: contain;
 }
 
 .grid--w-3 > .front {
-    background-image: url('/assets/img/ads/60x120.png');
+    background-image: url('../../assets/img/ads/60x120.png');
     background-size: contain;
 }
 
 .grid--w-3 > .back {
-    background-image: url('/assets/img/ads/60x120-2.png');
+    background-image: url('../../assets/img/ads/60x120-2.png');
     background-size: contain;
 }
 
 .grid--w-4 > .front {
-    background-image: url('/assets/img/ads/250x200.png');
+    background-image: url('../../assets/img/ads/250x200.png');
     background-size: contain;
 }
 
 .grid--w-4 > .back {
-    background-image: url('/assets/img/ads/250x200-2.png');
+    background-image: url('../../assets/img/ads/250x200-2.png');
     background-size: contain;
 }
 
 .grid--w-5 > .front {
-    background-image: url('/assets/img/ads/110x200-2.png');
+    background-image: url('../../assets/img/ads/110x200-2.png');
     background-size: contain;
 }
 
 .grid--w-5 > .back {
-    background-image: url('/assets/img/ads/110x200.png');
+    background-image: url('../../assets/img/ads/110x200.png');
     background-size: contain;
 }
 
 .grid--w-6 > .front {
-    background-image: url('/assets/img/ads/360x75-2.png');
+    background-image: url('../../assets/img/ads/360x75-2.png');
     background-size: contain;
 }
 
 .grid--w-6 > .back {
-    background-image: url('/assets/img/ads/360x75.png');
+    background-image: url('../../assets/img/ads/360x75.png');
     background-size: contain;
 }
 
 .grid--w-7 > .front {
-    background-image: url('/assets/img/ads/180x125-3.png');
+    background-image: url('../../assets/img/ads/180x125-3.png');
     background-size: contain;
 }
 
 .grid--w-7 > .back {
-    background-image: url('/assets/img/ads/180x125.png');
+    background-image: url('../../assets/img/ads/180x125.png');
     background-size: contain;
 }
 
 .grid--w-8 > .front {
-    background-image: url('/assets/img/ads/180x125-2.png');
+    background-image: url('../../assets/img/ads/180x125-2.png');
     background-size: contain;
 }
 
 .grid--w-8 > .back {
-    background-image: url('/assets/img/ads/180x125-4.png');
+    background-image: url('../../assets/img/ads/180x125-4.png');
     background-size: contain;
 }
